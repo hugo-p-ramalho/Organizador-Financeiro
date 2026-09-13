@@ -1,10 +1,12 @@
 ![Dashboard](dashboard.png)
 
+### 🚀 Demonstração ao vivo
+https://organizador-financeiro-6sxv3wz8fjsmspqjqdutku.streamlit.app/
+
 # 💰 Organizador Financeiro 2.0
 
 > Sistema completo de análise de gastos com Python, SQLite e Dashboard Web.
 
-**🚀 Demonstração ao vivo:** https://organizador-financeiro-6sxv3wz8fjsmspqjqdutku.streamlit.app/
 
 ### 📊 O que o projeto faz
 - ETL: Lê arquivos CSV de gastos
