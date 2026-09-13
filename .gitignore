@@ -5,3 +5,4 @@ venv/
 gastos.csv
 *.png
 *.jpg
+financeiro.db
