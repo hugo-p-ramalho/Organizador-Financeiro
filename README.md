@@ -1,3 +1,5 @@
+![Dashboard](dashboard.png)
+
 # 💰 Organizador Financeiro 2.0
 
 > Sistema completo de análise de gastos com Python, SQLite e Dashboard Web.
