@@ -1,40 +1,25 @@
-# Organizador Financeiro - Análise de Gastos com Python
+# 💰 Organizador Financeiro 2.0
 
-Pipeline de dados em Python para controle financeiro pessoal, transformando dados brutos de CSV em insights visuais.
+> Sistema completo de análise de gastos com Python, SQLite e Dashboard Web.
 
-Projeto desenvolvido para demonstrar fundamentos de Engenharia de Dados e Análise de Dados com Python.
+**🚀 Demonstração ao vivo:** https://organizador-financeiro-6sxv3wz8fjsmspqjqdutku.streamlit.app/
 
-### Tecnologias
-- **Python 3.11+**
-- **Pandas** - Limpeza, tratamento e agregação de dados
-- **Matplotlib** - Geração de visualizações
+### 📊 O que o projeto faz
+- ETL: Lê arquivos CSV de gastos
+- Armazena em banco de dados SQLite (não fica só na memória)
+- Dashboard interativo com métricas, gráfico de pizza e tabela
+- Deploy na nuvem com Streamlit Cloud
 
-### Arquitetura do Pipeline
-1.  **Ingestão:** Leitura de dados transacionais de `gastos_exemplo.csv`
-2.  **Transformação:** Tratamento com Pandas, agrupamento por categoria e cálculo de totais
-3.  **Visualização:** Geração de gráfico de distribuição de gastos
+### 🛠️ Tech Stack
+`Python` `Pandas` `SQLite3` `Streamlit` `Matplotlib`
 
-### Como executar
+### 📈 Evolução do projeto
+- **v1.0:** Script em Python + Pandas + Matplotlib
+- **v2.0:** Sistema com Banco de Dados + Dashboard Web + Deploy (ATUAL)
+
+### ▶️ Como rodar local
 ```bash
-# Clone o repositório
-git clone https://github.com/hugo-p-ramalho/Organizador-Financeiro.git
-
-# Entre na pasta
-cd Organizador-Financeiro
-
-# Instale as dependências
 pip install -r requirements.txt
+streamlit run app.py
 
-# Execute
-python main.py
-
-
-Exemplo de Saída
-O script gera um gráfico de pizza/barras mostrando para onde seu dinheiro está indo, permitindo decisões baseadas em dados.
-
-Próximos Passos (Roadmap)
-Migrar armazenamento de CSV para SQLite
-Criar dashboard interativo com Streamlit
-Automatizar ingestão com API bancária (Open Banking)
-
-Desenvolvido por Hugo P. Ramalho | Em transição para Engenharia de Dados/Ciência de Dados
+Feito por Hugo Ramalho - em transição para Dados
